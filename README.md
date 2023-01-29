@@ -23,6 +23,22 @@ The UNet++ model was trained on an available dataset with the following loss fun
 
 ![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/graphics/UNET%2B%2Bbce%2Baug.png)
 
+![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/graphics/UNET%2B%2Blosses_IOU.png)
+
+<br />
+Augmentation gives a great advantage: IOU increases at any stage and the training itself becomes more stable
+<br />
+
+Due to the limited computing power, it was not possible to conduct a large number of experiments using the selected dataset. As a result, a model capable of segmenting images of wounds with an accuracy of 0.83 IOU was obtained. It is used to make examples.
+<br />
+
+It should be mentioned that the model does not cope well with the segmentation of wounds on parts of the body other than the feet, since the training took place on an open dataset of wounds and foot ulcers. To improve the quality of the model, you should get a marked dataset with wounds on other parts of the body and retrain the model.
+<br />
+
+In the future, it is planned to use the model created now for segmentation of tissues in the wound itself. The initial stage of the solution will be the segmentation of the wound itself in order to simplify the work for the neural network, which will be created and trained later. The initial segmentation of the lesion site itself with the help of a trained model is necessary, since some types of tissues that may be present in the wound are also found on unaffected skin that can get into the frame. Also, traces of blood on clothes or a cot, which also sometimes appear in the frame, can be mistakenly classified by the second neural network as tissue in the wound, so you should initially clear the images of such "noises" that will interfere with the work of the second neural network, the development of which we plan to begin in the near future.
+<br />
+### Segmentation example
+
 ## Bot
 Bot released by python module telebot
 
