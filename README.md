@@ -15,7 +15,13 @@ UNet++ was chosen as the architecture of the first model because the article "UN
 <br />
 <br />
 The UNet++ model was trained on an available dataset with the following loss functions, after which one of the models was trained on a dataset that underwent augmentation, expanding it to 5500+ images. The results of the training are presented below:
+<br />
 
+![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/graphics/UNET%2B%2Bdice.png)
+
+![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/graphics/UNET%2B%2Bbce.png)
+
+![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/graphics/UNET%2B%2Bbce%2Baug.png)
 
 ## Bot
 Bot released by python module telebot
