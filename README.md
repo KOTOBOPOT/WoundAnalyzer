@@ -13,6 +13,7 @@ The dataset attached to the article (currently the repository of the project art
 <br />
 UNet++ was chosen as the architecture of the first model because the article "UNet++: A Nested U-Net Architecture for Medical Image Segmentation" talks about the advantages of this modernization of the UNet architecture for segmentation of medical images. The article is available at the link below: https://arxiv.org/pdf/1807.10165.pdf
 <br />
+<br />
 The UNet++ model was trained on an available dataset with the following loss functions, after which one of the models was trained on a dataset that underwent augmentation, expanding it to 5500+ images. The results of the training are presented below:
 
 
