@@ -1,6 +1,9 @@
 # Wound Analyzer
 This repository contains Telegram Bot which analyze wound image for different tissue types.
 
+# WARNING
+Several repository images(for example below in README.md) can shock. If you are impressionable person, authors don't recommend you to see this repository
+
 ## Neural Network
 Model UNet++ is used in the repository
 
@@ -13,9 +16,7 @@ Bot released by python module telebot
 /help - Get info about bot<br />
 
 ## Using Example
-![alt tag](https://github.com/KOTOBOPOT/StyleTransferBot/blob/main/screenshot2.jpg)
-![alt tag](https://github.com/KOTOBOPOT/StyleTransferBot/blob/main/screenshot1.jpg)
-
+![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/bot%20using%20example/example.jpg)
 
 
 ## Install
