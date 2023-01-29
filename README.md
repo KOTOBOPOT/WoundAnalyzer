@@ -1,16 +1,14 @@
-# StyleTransferBot
-This repository contains Telegram Bot which transfer  input style image into input content image 
+# Wound Analyzer
+This repository contains Telegram Bot which analyze wound image for different tissue types.
 
 ## Neural Network
-StyleNet is got from official Pytorch site pytorch.org
+Model UNet++ is used in the repository
 
 ## Bot
 Bot released by python module telebot
 
 ## Telegram Commands:
-/set_content - Get content image <br />
-/set_style - Get style image<br />
-/draw - Make result image<br />
+/pr - Get image and send result of processing<br />
 /cancel - Cancel current command<br />
 /help - Get info about bot<br />
 
@@ -22,4 +20,4 @@ Bot released by python module telebot
 To run this bot on your own you need:
 1. Copy this repository where you want to run bot
 2. Create file 'token.ini' contained bot token
-3. Run 'StyleTransfer.py'
+3. Run 'WoundAnalyzerBot.py'
