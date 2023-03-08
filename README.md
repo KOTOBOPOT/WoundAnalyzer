@@ -61,9 +61,13 @@ To run this bot on your own you need:
 3. Run 'WoundAnalyzerBot.py'
 
 ## Authors
-Tsupin Dmitry 
+Tsupin Dmitry dimatsypin@gmail.com (ML) 
 <br />
-Pronin Dmitry DDPronin003@yandex.ru
+Pronin Dmitry DDPronin003@yandex.ru (ML)
 <br />
-Borisov Viktor borisov_vk@mail.ru
+Borisov Viktor borisov_vk@mail.ru (ML)
 <br />
+Brezhnev Danila Stalkee97@gmail.com (Med)
+<br />
+
+
