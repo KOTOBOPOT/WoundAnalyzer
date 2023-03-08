@@ -16,6 +16,8 @@ UNet++ was chosen as the architecture of the first model because the article "UN
 <br />
 The UNet++ model was trained on an available dataset with the following loss functions, after which one of the models was trained on a dataset that underwent augmentation, expanding it to 5500+ images. The results of the training are presented below:
 <br />
+<br />
+
 
 ![alt tag](https://github.com/KOTOBOPOT/WoundAnalyzer/blob/main/photos/graphics/UNET%2B%2Bdice.png)
 
@@ -57,3 +59,11 @@ To run this bot on your own you need:
 1. Copy this repository where you want to run bot
 2. Create file 'token.ini' contained bot token
 3. Run 'WoundAnalyzerBot.py'
+
+## Authors
+Tsupin Dmitry 
+<br />
+Pronin Dmitry DDPronin003@yandex.ru
+<br />
+Borisov Viktor borisov_vk@mail.ru
+<br />
